@@ -1,6 +1,6 @@
 import React from "react";
 import web from "../src/images/contact.jpg";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import Common from "./Common";
 const About = () => {
   return (

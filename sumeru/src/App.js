@@ -8,6 +8,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Service from "./Service";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "./App.css";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route exact path="/contact" component={Contact}></Route>
         <Redirect to="/"></Redirect>
       </Switch>
+      <Footer />
     </>
   );
 };
