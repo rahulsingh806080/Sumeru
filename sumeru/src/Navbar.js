@@ -1,17 +1,24 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import web from "../src/images/logo.jpeg";
 
 const Navbar = () => {
   return (
     <>
       <div className="container-fluid nav_bg">
         <div className="row">
-          <div className="col-10 mx-auto">
+          <div className="col-10 mx-auto1">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <div className="container-fluid">
-                <NavLink className="navbar-brand" to="/">
+                {/* <NavLink className="navbar-brand" to="/">
                   MatriMeru Tech
-                </NavLink>
+                </NavLink> */}
+
+                <div className="top-left pull-left fl-left">
+                  <a href="index.php">
+                    <img src={web} alt="" className="logosize" />
+                  </a>
+                </div>
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -66,6 +73,11 @@ const Navbar = () => {
                       </NavLink>
                     </li>
                   </ul>
+                </div>
+                <div className="nav-box">
+                  <div className="nav-btn nav-toggler navSidebar-button clearfix">
+                    <i className="flaticon-sort"></i>
+                  </div>
                 </div>
               </div>
             </nav>
