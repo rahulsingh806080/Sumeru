@@ -24,7 +24,7 @@ const HomeAbout = (props) => {
                     style={{ backgroundImage: `url(${shape1})` }}
                   ></div>
                   <figure className="image image-1">
-                    <img src={abc} alt="" />
+                    <img src={absa} alt="" />
                   </figure>
                   <figure className="image image-1">
                     <img src={absa} alt="" />

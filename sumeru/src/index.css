@@ -19838,3 +19838,8 @@ h3 a:hover{
   padding: 70px 0px 180px 0px !important;
   background: #fff;
 }
+
+
+.myClassname{
+  background-color: white !important;
+}
